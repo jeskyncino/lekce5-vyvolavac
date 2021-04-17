@@ -74,3 +74,36 @@ h2 {
 	box-shadow: 0 1px 6px rgba(0, 0, 0, 0.4);
 	transform: translateY(3px);
 }
+
+#pocitadlo {
+	font-size: 24px;
+
+} 
+
+.obnov {
+	display: block;
+	margin: 10px auto;
+	padding: 20px;
+	font-family: 'Paytone One', sans-serif;
+	font-size: 14px;
+	color: white;
+	border: 0;
+	border-radius: 20px;
+	background: #363480 linear-gradient(to top, #363480 0%, #a09fce 100%);
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+	outline: 0;
+}
+
+.obnov:hover {
+	box-shadow: 0 6px 14px rgba(0, 0, 0, 0.18);
+	transform: translateY(-2px);
+}
+
+.obnov:active {
+	box-shadow: 0 1px 6px rgba(0, 0, 0, 0.4);
+	transform: translateY(3px);
+}
+
+.obalPocitadla {
+	margin-bottom: 20px;
+}
